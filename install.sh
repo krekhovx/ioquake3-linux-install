@@ -15,7 +15,7 @@ unzip ioquake3/release-linux-x86_64.zip -d ioquake3/
 
 # know this host
 sftpip="5.63.158.181"
-if ! ssh-keygen -F "$sftpip" 2>/dev/null; then
+if ! ssh-keygen -F "$sftpip" >/dev/null 2>&1; then
 	ssh-keyscan -H "$sftpip" >> ~/.ssh/known_hosts
 fi
 
