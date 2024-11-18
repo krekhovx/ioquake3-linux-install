@@ -55,7 +55,8 @@ $ cd ioquake3/
 $ ./ioquake3.x86_64
 ```
 
-Yes, it's that simple.
+Yes, it's that simple.</br>
+Multiplayer works well.
 
 ## My configuration for full screen 1920x1080 game
 I've slightly modified the default configuration, changing some settings and hotkeys to make it more
