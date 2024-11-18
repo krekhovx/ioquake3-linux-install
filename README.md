@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/iikrllx/ioquake3-linux-install/blob/master/logo/header.webp">
+<img src="https://github.com/iikrllx/ioquake3-linux-install/blob/master/for-readme/header.webp">
 </div>
 
 ## ioquake3-linux-install
