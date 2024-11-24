@@ -77,9 +77,20 @@ After this, don't forget to change default nickname in the game.
 ~/.q3a/
 ```
 
-## Guides
+## Useful links
+
+### Guides
 - [Players Guide](https://ioquake3.org/help/players-guide/)
 - [Sys Admin Guide](https://ioquake3.org/help/sys-admin-guide/)
+
+### Project
+- [GitHub](https://github.com/ioquake/ioq3)
+- [Bug Tracker 1](https://github.com/ioquake/ioq3/issues)
+- [Bug Tracker 2](https://bugzilla.icculus.org/describecomponents.cgi?product=ioquake3)
+
+### Where can I find good maps to download?
+- [Maps 1](https://lvlworld.com/)
+- [Maps 2](https://ru.ws.q3df.org/maps/)
 
 ## Thanks
 Thanks to the developers for creating this wonderful game and the volunteers who still support this
