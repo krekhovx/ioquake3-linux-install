@@ -63,11 +63,14 @@ I've slightly modified the default configuration, changing some settings and hot
 convenient for playing. If you want to try it:
 
 ```
-# if the directory does not exist
-mkdir -p ~/.q3a/baseq3
+# if the directory does not exist create it
+$ mkdir -p ~/.q3a/baseq3
+
+# if you have your own configuration save it
+$ cp ~/.q3a/baseq3/q3config.cfg ~/.q3a/baseq3/backup-q3config.cfg
 
 # go back to the root of the project and copy the file
-cp misc/q3config.cfg ~/.q3a/baseq3
+$ cp misc/q3config.cfg ~/.q3a/baseq3
 ```
 
 After this, don't forget to change default nickname in the game.
