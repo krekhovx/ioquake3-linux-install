@@ -25,7 +25,7 @@ The project provides a script that:
 - Provides cd-key: The **q3key** is included to simplify the game launch process.
 
 ## Why should I use ioquake3 instead of id software’s 1.32c?
-Answer from the [site](https://ioquake3.org/help/players-guide/#whyioquake3):
+Answer from the [ioquake3](https://ioquake3.org/help/players-guide/#whyioquake3):
 *id software stopped fixing bugs, security issues, and adding features to Quake 3: Arena more than
 fifteen years ago. We’ve added many features and fixed too many bugs to count.*
 
