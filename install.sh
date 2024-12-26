@@ -1,5 +1,7 @@
-#!/bin/sh -e
+#!/bin/bash -e
 
+default_installation()
+{
 mkdir ioquake3
 mkdir zip
 mkdir tmp
@@ -37,3 +39,28 @@ rm -rf tmp
 
 # put all zip archives separately
 find . -path ./zip -prune -o -name "*.zip" -type f -exec mv {} zip/ \;
+}
+
+get_various_maps()
+{
+	if [ ! -d ioquake3/baseq3 ]; then
+		>&2 echo "Please, run the script without arguments first"
+		exit 1
+	fi
+
+# get all various *.pk3 maps from my SFTP server
+sshpass -p '1' sftp sftpuser@5.63.158.181 <<EOF
+lcd ioquake3/baseq3
+cd pk3/various-maps
+get *.pk3
+bye
+EOF
+}
+
+if [ $# == 0 ]; then
+	default_installation
+else
+	if [ "$1" == "--download-maps" ]; then
+		get_various_maps
+	fi
+fi
