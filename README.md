@@ -70,7 +70,7 @@ $ ./install.sh --download-maps
 I downloaded some popular maps and put them on my SFTP. I think it's convenient.
 You can also download the maps separately (see **Useful links**).
 
-## My configuration for full screen 1920x1080 game
+## My configuration for 1920x1080 game
 I've slightly modified the default configuration, changing some settings and
 hotkeys to make it more convenient for playing. If you want to try it:
 
