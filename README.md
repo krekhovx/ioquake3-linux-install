@@ -92,6 +92,16 @@ After this, don't forget to change default nickname in the game.
 ~/.q3a/
 ```
 
+## HUNK_ALLOC FAILED
+If you are experiencing network game interruptions due to this error, you can
+increase the values by setting:
+```
+seta com_zoneMegs "<greater number>"
+seta com_hunkMegs "<greater number>"
+```
+in the file ```~/.q3a/baseq3/q3config.cfg```
+
+
 ## Useful links
 
 ### Guides
