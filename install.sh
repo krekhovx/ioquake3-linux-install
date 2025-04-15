@@ -2,16 +2,6 @@
 
 set -e
 
-download_pk3_maps_files()
-{
-sshpass -p '1' sftp sftpuser@5.63.158.181 <<EOF
-lcd ioquake3/baseq3
-cd pk3/various-maps
-get *.pk3
-bye
-EOF
-}
-
 download_pk3_files()
 {
 sshpass -p '1' sftp sftpuser@5.63.158.181 <<EOF
@@ -58,21 +48,4 @@ default_installation()
 	find . -path ./zip -prune -o -name "*.zip" -type f -exec mv {} zip/ \;
 }
 
-get_various_maps()
-{
-	if [ ! -d ioquake3/baseq3 ]; then
-		>&2 echo "Please, run the script without arguments first"
-		exit 1
-	fi
-
-	# download various *.pk3 maps from my SFTP server
-	download_pk3_maps_files
-}
-
-if [ $# -eq 0 ]; then
-	default_installation
-else
-	if [ "$1" = "--download-maps" ]; then
-		get_various_maps
-	fi
-fi
+default_installation

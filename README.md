@@ -63,13 +63,6 @@ $ ./ioquake3.x86_64
 Yes, it's that simple.</br>
 Multiplayer works well.
 
-- Want to download various maps?
-```
-$ ./install.sh --download-maps
-```
-I downloaded some popular maps and put them on my SFTP. I think it's convenient.
-You can also download the maps separately (see **Useful links**).
-
 ## My configuration for 1920x1080 game
 I've slightly modified the default configuration, changing some settings and
 hotkeys to make it more convenient for playing. If you want to try it:
@@ -100,7 +93,6 @@ seta com_zoneMegs "<greater number>"
 seta com_hunkMegs "<greater number>"
 ```
 in the file ```~/.q3a/baseq3/q3config.cfg```
-
 
 ## Useful links
 
