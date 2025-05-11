@@ -6,7 +6,7 @@ download_pk3_files()
 {
 sshpass -p '1' sftp sftpuser@5.63.158.181 <<EOF
 lcd ioquake3/baseq3
-cd pk3
+cd quake3
 get *.pk3
 bye
 EOF
@@ -46,6 +46,9 @@ default_installation()
 
 	# put all zip archives separately
 	find . -path ./zip -prune -o -name "*.zip" -type f -exec mv {} zip/ \;
+
+	# delete host
+	ssh-keygen -R "$sftpip" >/dev/null 2>&1
 }
 
 default_installation
