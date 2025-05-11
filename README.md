@@ -3,12 +3,10 @@
 </div>
 
 ## ioquake3-linux-install
-This project is created to simplify the installation and launch of Quake III
-Arena with enhanced content and the latest updates from ioquake3. It downloads
-all necessary files and automates the process of preparing the game for launch
-on Linux.
-
-The project provides a script that:
+This script is created to simplify the installation and launch of Quake III
+Arena with enhanced content and the latest updates from **ioquake3**. It
+downloads all necessary files and automates the process of preparing the game
+for launch on Linux.
 
 - Downloads and installs the latest version of ioquake3: ioquake3 is an updated
   and improved version of the Quake III Arena engine, which supports modern
@@ -36,7 +34,7 @@ many bugs to count.*
 
 ## Installation
 <u>The script **install.sh** does not install files to the root filesystem; it
-only operates locally within the current project directory.</u>
+only operates locally within the current directory.</u>
 
 - Before installation, make sure that your machine has internet access.
 
@@ -63,7 +61,7 @@ $ ./ioquake3.x86_64
 Yes, it's that simple.</br>
 Multiplayer works well.
 
-## My configuration for 1920x1080 game
+## Configuration for 1920x1080
 I've slightly modified the default configuration, changing some settings and
 hotkeys to make it more convenient for playing. If you want to try it:
 
@@ -74,7 +72,7 @@ $ mkdir -p ~/.q3a/baseq3
 # if you have your own configuration save it
 $ cp ~/.q3a/baseq3/q3config.cfg ~/.q3a/baseq3/backup-q3config.cfg
 
-# go back to the root of the project and copy the file
+# go back to the root directory and copy the file
 $ cp misc/q3config.cfg ~/.q3a/baseq3
 ```
 
