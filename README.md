@@ -4,7 +4,7 @@
 
 ## ioquake3-linux-install
 This script is created to simplify the installation and launch of Quake III
-Arena with enhanced content and the latest updates from **ioquake3**. It
+Arena with enhanced content and the latest updates from **ioquake3** port. It
 downloads all necessary files and automates the process of preparing the game
 for launch on Linux.
 
