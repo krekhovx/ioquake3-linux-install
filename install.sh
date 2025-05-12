@@ -14,9 +14,7 @@ EOF
 
 default_installation()
 {
-	mkdir ioquake3
-	mkdir zip
-	mkdir tmp
+	mkdir ioquake3 zip tmp
 
 	# download main Linux ioquake3 build
 	wget https://files.ioquake3.org/Linux.zip
